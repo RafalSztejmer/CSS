@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .wrapper {
+            height: 500px;
+            background-color: black;
+            color: white;
+            padding: 30px;
+            
+        }
+
+       
+        
+
+        .header {
+            height: 20%;
+            background-color: aliceblue;
+            color: black;
+            text-align: center;
+            width: 90%;
+            
+        }
+        .header, .left-column, .sidebar {
+
+                box-sizing: border-box;
+                padding: 20px;
+                margin: 20px;
+                border-radius: 10%;
+        }
+        .left-column {
+            height: 300px;
+            width: 300px;
+            background-color: white;
+            color: black;
+            float: left;
+        }
+
+        .sidebar {
+            height: 300px;
+            width: 200px;
+            background-color: white;
+            color: red;
+            float: left;
+        }
+    </style>
+
+    <div class="wrapper">
+        <div class="header">Lorem ipsum dolor sit.</div>
+        <div class="left-column">Lorem, ipsum.</div>
+        <div class="sidebar">Lorem, ipsum.</div>
+    </div>
+
+</body>
+</html>
