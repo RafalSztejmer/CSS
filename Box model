@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        /*
+            Każdy element blokowy (np div, article, section) jest pudełkiem
+            mającym następujące właściwości:
+            -content area - treść elementu np tekst, obrazki itd wewnątrz elementu html
+            -padding - dopełnienie, wolna przestrzeń między treścią a obramowaniem
+            -border - obramowanie elementu
+            margin - margines, przestrzeń poza elementem html oddzielającągo od innych elementów
+
+            Model pudeókowy pozwala na budowanie układu (layoutu) strony
+            z klocków z uwzględnieniem:
+            - wymiarów każdego elementu blokowego
+            -marginesów czyli odstępów między elementami
+            -padding tworzy wewnętrzne dopełnienie między
+            obramowaniem a treścią
+            -określa pozycje na stronie
+
+            Domyślne wartości elementó blokowych to:
+            width: 100%
+            height: auto
+            padding: 20px
+            margin: 30px
+            border: 15px solid
+        */
+        div.news {
+            width: 30%;
+            height: auto;
+            background: green;
+            border: 4px solid black;
+            margin: 10px;
+            padding: 10px;
+            float: left; /* kolejny element blokowy bedzie po lewej stronie */
+        }
+    </style>
+
+    <div class="news">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="news">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+</body>
+</html>
