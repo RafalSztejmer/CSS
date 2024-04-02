@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        /*
+            Kolumny tekstu pokazuja tekst jak na przykład w gazetach
+        */
+        .multi-colummn {
+            -moz-column-count: 2;
+            -webkit-column-count: 2;
+            column-count: 2;
+            column-gap: 40px; /* przestrzen miedzy kolumnami*/
+            column-rule: 2px solid red;
+        }
+    </style>
+
+    <p class="multi-column">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati odio unde hic necessitatibus ea quis ipsa optio vitae ullam iste? Aperiam, quos vitae. Assumenda obcaecati perspiciatis quo. Illo inventore pariatur, animi ab eum voluptatem accusamus sit maxime quis, saepe doloribus nam. Distinctio labore perferendis velit quod. Perferendis a ex doloribus.</p>
+</body>
+</html>
