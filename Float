@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        /*
+            float to pływanie elementów, sprawia ze treść bedzie
+            opływać dany element
+        */
+
+        .to-left {
+            float: left;
+            margin: 10px;
+            color: red;
+        }
+
+        .to-right {
+            float: right;
+            margin: 10px;
+
+        }
+    </style>
+
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, modi quisquam aut dicta repudiandae, maxime eveniet rerum consequuntur aliquam sint quis ullam enim incidunt quibusdam quasi animi nemo perspiciatis esse voluptatum nesciunt illum suscipit aliquid ipsum! Culpa porro odio possimus doloribus architecto omnis! Delectus qui eveniet voluptatem maiores ipsum eum a. Ea eius quaerat ad enim quisquam, perspiciatis deleniti laborum alias, nobis neque provident! Eveniet temporibus, sit placeat perferendis sunt saepe accusamus aliquid amet reprehenderit voluptate voluptatibus alias, ipsa dicta.
+    <span class="to-left">Lorem, ipsum.</span>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur sequi, laborum eius rem dolores soluta. Provident totam, aut est animi dicta maxime, magnam adipisci debitis soluta ex facere hic magni, porro sed sequi voluptatum aliquid? Reiciendis necessitatibus veniam dolor ipsam quidem mollitia tenetur, asperiores quisquam officiis eum dolores voluptatem distinctio.
+    <span class="to-right">Lorem, ipsum.</span>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur sequi, laborum eius rem dolores soluta. Provident totam, aut est animi dicta maxime, magnam adipisci debitis soluta ex facere hic magni, porro sed sequi voluptatum aliquid? Reiciendis necessitatibus veniam dolor ipsam quidem mollitia tenetur, asperiores quisquam officiis eum dolores voluptatem distinctio.
+    <img class="to-left" width="100" src="https://cdn.pixabay.com/photo/2019/12/16/10/49/building-4699096_640.jpg" alt="">
+    <img class="to-left" width="100" src="https://cdn.pixabay.com/photo/2019/12/16/10/49/building-4699096_640.jpg" alt="">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ex nostrum sed quam ipsum ipsa consequatur unde saepe eum commodi, dolor doloribus delectus cum. Dolorum facilis eos veritatis, ipsum neque minus tempore numquam libero commodi voluptate incidunt. Aliquam voluptatem eius excepturi, cupiditate corporis facilis molestias, deserunt molestiae aperiam fugiat suscipit.
+</body>
+</html>
