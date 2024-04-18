@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+    /*
+    Istnieją jeszcze jednostki względne do obszaru roboczego
+    przeglądarki czyli okne gdzie renderowana jest treśc bez paska adresu
+    
+    - vh - jedna setna dostępnej wysokości
+    - vw - jedna setna dostępnej szerokości
+    - vmin - jedna setna mniejszej wartości wysokości
+             lub szerokości
+
+    - vmax - jedna setna większej wartości wysokości 
+            lub szerokości
+    */
+    div {
+        background: red;
+        width: 50vw; /* 50 procent dostepnej przestrzeni roboczej*/
+        font-size: 5vh; /* 5% dostepnej wysokości obrzaru roboczego*/
+    }
+    </style>
+
+    <div>
+        Div element
+    </div>
+
+    <article>
+        Article element
+
+    </article>
+</body>
+</html>
