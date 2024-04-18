@@ -1,0 +1,34 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        /*
+        Jednostka względna rem odwołuje sie do elementu 
+        głównego strony tzw root którym jest selektor
+        html. Z niego brana jest wielkość dla wszystkich
+        elementów korzystających z rem
+        */
+        :root {font-size: 32px;} /*odwołuje sie do calej strony*/
+        ul {font-size: 0.8rem;} /* odwołuje sie list jest to 80% wielkości z 32px*/
+        span {font-size: 0.5rem;} /*jest to 50% z 32px tylko dla wartości span*/
+    </style>
+
+    <ul>
+        <li>poziom 1
+            <ul>
+                <li>poziom 2
+                    <ul>
+                        <li>poziom 3</li>
+                        <li><span>Lorem, ipsum.</span></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
