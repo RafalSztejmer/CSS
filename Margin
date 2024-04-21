@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        /*
+          Marginesy są używane do oddzielenia elementu html od innych częsci
+          strony. ważne aby nie mylic ich z padding czyli dopełnieniem elementu
+
+          margin; 20px 10px 20px 15px
+          wartości w px odnoszą sie kolejno do:
+          -góra
+          -prawo
+          -dół
+          -lewo
+
+          Zgodnie ze wskazówkami zegara
+
+
+        */
+        .center { /* element zostanie wycentrowany */
+            width: 150px;
+            height: 100px;
+            background-color: blue;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .to-right { /* element zostanie ustawiony 20px od prawej strony */
+            width: 150px;
+            height: 100px;
+            background-color: blue;
+            margin-left: auto;
+            margin-right: 20px;
+        }
+        div.outer {
+            height: 120px;
+            border: 5px solid red;
+            margin-right: 200px;
+            
+        }
+        div.inner {
+            width: 70px;
+            height: 22px;
+            margin-top: -15px;
+            margin-left: 10px;
+            
+            background-color: red;
+        }
+
+    </style>
+
+    <div class="center">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, nulla?
+    </div>
+    <div class="to-right">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, nulla?
+    </div>
+    <div class="outer">
+        <div class="inner">title</div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, nulla?
+    </div>
+</body>
+</html>
