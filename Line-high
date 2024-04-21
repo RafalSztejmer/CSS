@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        /*
+            line-high - przy zwiększaniu wartości właściwości rośnie
+                wysokość wiersza oraz odstep pomiędzy liniami tekstu
+        */
+        p {border: 2px solid black; font-size: 18px;}
+        .lh22 {line-height: 22px;}
+        .lh30 {line-height: 30px;}
+        .lh40 {line-height: 40px;}
+    </style>
+
+    <p class="lh22">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, vel corrupti! Deserunt aliquam nemo voluptate maxime dolor? Molestias, veritatis. Aperiam molestiae nemo quaerat, eos pariatur doloribus atque magni impedit dicta.</p>
+    <p class="lh30">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eius aperiam aliquam voluptatem incidunt dolor iure laborum ut animi nam praesentium, quasi, nulla, voluptate excepturi quod expedita. Accusamus, qui! Nisi!</p>
+    <p class="lh40">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, quos! Aut repellat enim nam consequuntur provident, adipisci voluptatum dicta! Enim amet quidem explicabo iusto beatae libero ullam dolores suscipit est?</p>
+</body>
+</html>
