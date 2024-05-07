@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        /*
+            display: inline-block łączy dwa światy, pozwala elementom
+            inline nadal płynąć z tekstem ale mozna dodac im:
+            padding, margin, border itd.
+            Nadal jest to tekst i możemy korzystać np z text-align
+        */
+        li {
+            display: inline-block;
+            width: 100px;
+            height: 20px;
+            padding: 3px;
+            margin: 3px;
+            background-color: lightblue;
+            border: 1px solid black;
+            text-align: center;
+
+        }
+    </style>
+
+    <ul>
+        <li>strona główna</li>
+        <li>Blog</li>
+        <li>Kontakt</li>
+    </ul>
+</body>
+</html>
